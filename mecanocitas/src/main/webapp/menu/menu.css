@@ -1,0 +1,204 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-13xl: 32px;
+  --font-size-24xl: 43px;
+  --font-size-9xl: 15px;  
+
+  /* Colors */
+  --color-darkslategray: rgb(110, 110, 110);
+  --color-cornflowerblue-100: #4a79c4;
+  --color-white: #fff;
+}
+
+.menu-de-opciones-administrador{
+	background-image: url('../public/menu-bg.jpg');
+   background-size: cover; /* Ajusta el tamaño según tus necesidades */
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+  top: 0;
+     width: 100%;
+  height: 100%;
+  display:flex; 
+  justify-content: center;
+
+}
+
+.menu-de-opciones-administrador, a{
+	   font-size: var(--font-size-9xl);
+  color: var(--color-white);
+  font-family: var(--font-inter); 
+}
+
+.capa-opaca { /*RECTANGULO NEGRO TRANSPARENTE*/
+  
+  top: 0;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.6);    
+  max-width: 1300px;
+  width: 100%;  
+  height: 440px; 
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+
+
+/*INICIO - menu horizontal*/
+.links{
+	display: flex; 
+	margin: 0 auto; 
+	padding-top: 20px; 
+	max-width: 1200px;
+	width: 100%;
+	 justify-content: space-between;
+}
+
+.lista-horizontal-sup-izq {
+	
+ list-style: none;
+  display: flex;
+  justify-content: space-between; /* Espacio entre elementos */
+  max-width: 1920px;  
+  padding: 0;
+  margin-left: 0px;  
+  margin-right: 10px;
+}
+
+.lista-horizontal-sup-izq li {
+	
+	cursor: pointer;
+	margin-left:35px;  
+}
+
+.link{
+	display: flex;
+  justify-content: center;
+}
+
+.lista-horizontal-sup-izq a {
+	justify-content: center; 
+	 padding-left: 10px;  
+  text-decoration: none;
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+/* CSS PARA iconos de los links*/
+.link-icon{ 
+  width: 16.06px;
+  height: 20.23px;
+  object-fit: cover;
+}
+
+
+.link-subrayado{
+	margin-top: 5px;
+border-top: 2px solid var(--color-white);
+width: 100%;
+}
+
+
+.lista-horizontal-sup-salir{
+	 margin-left: 0px;
+	 margin-right: 0px;
+	 list-style: none;
+  display: flex;
+  justify-content: space-between; /* Espacio entre elementos */
+  padding: 0;
+}
+
+.lista-horizontal-sup-salir li {
+	cursor: pointer;
+	margin:0;  
+	margin-right:35px; 
+}
+
+.lista-horizontal-sup-salir a {
+	justify-content: center; 
+	 padding-left: 10px;  
+  text-decoration: none;
+  border-radius: 5px; /* Bordes redondeados */
+}
+/*FIN - menu horizontal*/
+
+
+
+.logo-mecanocitas { /*LOGO MECANOCITAS*/
+
+ margin: 0 auto;
+ margin-top: 50px;  
+  display: flex;;
+  align-items: center;  
+}
+
+.logo{
+ max-width: 750px;
+ width: 100%;  
+  object-fit: cover;
+  mix-blend-mode:luminosity;
+}
+
+
+/*PROCESOS*/
+
+.procesos{
+	display: flex;
+	margin-top: 27px;
+}
+
+
+
+.card{
+	padding-top: 0px;
+	padding-bottom: 30px;  
+  margin-top: 20px; 
+background-color: var(--color-white);
+max-width: 275px;
+width: 100%;   
+height: 175px;  
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.50);
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-24xl);
+  color: var(--color-cornflowerblue-100);
+   border-radius: 15px;
+   border: none;
+}
+
+.card-icon{
+	background-color: var(--color-white);
+	padding: 5px;
+	margin-top: -40px;
+  margin-bottom: 10px;  
+  width: 71.35px;
+  height: 71.49px;
+  object-fit: cover;
+  border-radius: 15px;  
+}
+
+h2{
+	font-size: 28px;
+	margin-top: -15px;  
+}
+
+p{
+	font-weight: 300; 
+	margin-top: -5px;    
+	padding: 15px;  
+	font-size: 22px;    
+	color: var(--color-darkslategray);
+	 
+}
+
+

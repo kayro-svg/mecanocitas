@@ -1,0 +1,110 @@
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter; 
+
+  /* font sizes */
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --color-cornflowerblue: #4a79c4;
+  --color-darkgray: #989898;
+}
+
+.inicio-de-sesion {
+  position: absolute;
+  top: 0;
+  background-image: url('../public/bg-image@2x.png');
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+display: flex;
+  justify-content: right;
+  align-items: center;  
+  height: 100%;  
+}
+
+.logo-mecanocitas-icon {
+  width: 500px;
+  height: 127px;
+}
+
+.titulo {
+  width: 500px;
+  font-size: 22px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #232e48;
+}
+
+.titulo-child {
+  border-top: 3px solid #7eafdc;
+  box-sizing: border-box;
+  width: 175px;
+  height: 3px;
+}
+
+.form {
+  color: var(--color-darkgray);
+  display: grid;
+  justify-content: center;
+}
+
+.form input {
+  border: none;
+  border-bottom: 2px solid var(--color-darkgray);
+  outline: none;
+}
+
+input, .boton {
+  border-bottom: none; 
+}   
+
+.usuario {
+  padding-bottom: 10px;
+  width: 300px;
+  border: none;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 100; 
+}
+
+.contrasena {
+  padding-bottom: 10px;
+  width: 300px;
+  border: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.boton { 
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: var(--color-cornflowerblue);
+  width: 140px;
+  height: 40px;
+  font-weight: 600;
+  color: #fff;
+  font-size: 22px;
+}
+
+#boton-login {
+  border-bottom: none;
+  text-decoration: none;
+  border: none;
+}
+
